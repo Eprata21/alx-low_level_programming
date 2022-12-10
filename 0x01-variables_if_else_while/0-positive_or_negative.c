@@ -1,14 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* posisve and negative*/
-/*
- * main -entry point
- *
- * Description: 'the program's description' betty writing style doc
- *
- * Return: Always 0 (success)
- */
+/**
+* main - main function
+* Return: 0 (Sucess)
+*/
 int main(void)
 {
 	int n;
