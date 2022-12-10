@@ -3,9 +3,9 @@
 #include <time.h>
 /* posisve and negative*/
 /*
- *  betty writing style doc
- *
  * main -entry point
+ *
+ * Description: 'the program's description' betty writing style doc
  *
  * Return: Always 0 (success)
  */
