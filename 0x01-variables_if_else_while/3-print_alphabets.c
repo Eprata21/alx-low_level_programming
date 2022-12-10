@@ -3,13 +3,20 @@
 #include <stdio.h>
 /**
  * main - main function
- *Return: 0 (Success)
+ * Return: 0 (Sucess)
  */
 int main(void)
 {
-	char ch = 'a';
+	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
+
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+
+	putchar("\n");
 	return (0);
 }
+
+
