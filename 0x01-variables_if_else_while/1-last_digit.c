@@ -2,8 +2,10 @@
 #include <time.h>
 #include <math.h>
 #include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+/**
+ * main - main function
+ * Return: 0 (Sucess)
+ */
 int main(void)
 {
 	int n, last, count;
