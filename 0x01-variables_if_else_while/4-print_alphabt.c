@@ -5,7 +5,7 @@
  * main - main function
  * Return: 0 (Sucess)
  */
-int main(void)i
+int main(void)
 {
 	char ch;
 
@@ -13,7 +13,9 @@ int main(void)i
 		if (ch != 'e' && ch != 'q')
 		{
 			putchar(ch);
-			putchar('\n');
 		}
+	{
+			putchar('\n');
+	}
 				return (0);
 }
