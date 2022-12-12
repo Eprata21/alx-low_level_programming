@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -6,25 +7,23 @@
  */
 int main(void)
 {
-	int a;
-	int b;
-	int c;
+	int a, b, c;
 
-	for (a = 'a'; b <= '7'; a++)
+	for (a = '0'; a <= '7'; a++)
 	{
-		b = a + 1;
+		for (b = '0'; b <= '8'; b++)
 		{
-			for (b = b; b <= '8'; b++)
+			for (c = '0'; c <= '9'; c++)
 			{
-				c = b + 1;
-				for (c = c; c <= '9'; c++)
+				if (a < b && b < c)
 				{
 					putchar(a);
 					putchar(b);
 					putchar(c);
-					if (a <= '6' && b <= '8' && c <= '9')
+
+					if (a != '7')
 					{
-						putchar(';');
+						putchar(',');
 						putchar(' ');
 					}
 				}
