@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isalpha_return 1
- * @c: good 
+ * _isalpha - good
+ * @c : good 
  * always sucess
  */
 int _isalpha(int c)
@@ -15,6 +15,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-}
-
-	
+}	
