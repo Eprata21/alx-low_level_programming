@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isalpha - god
- * @c : good 
+ * _isalpha - function name
+ * @c:parametre 
  * reutrn : always sucess
  */
 int _isalpha(int c)
