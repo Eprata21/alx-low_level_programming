@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * print_alphabet_x10 - with putchar
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int i, j;
 
@@ -17,5 +15,4 @@ int main(void)
 		}
 		_putchar('\n');
 	}
-	return (0);
 }
