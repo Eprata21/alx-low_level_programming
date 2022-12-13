@@ -2,8 +2,8 @@
 
 /**
  * _isalpha - function name
- * @c:parametre 
- * reutrn : always sucess
+ * @c: parametre
+ * Reutrn : 1 t 0 false
  */
 int _isalpha(int c)
 {
