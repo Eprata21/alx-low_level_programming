@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - good
+ * _isalpha - god
  * @c : good 
- * always sucess
+ * reutrn : always sucess
  */
 int _isalpha(int c)
 {
