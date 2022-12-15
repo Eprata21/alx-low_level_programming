@@ -10,13 +10,5 @@ int mul(int a, int b)
 	int c;
 
 	c = a * b;
-	if (a == 98 && b == 1024)
-	{
-		_putchar(c);
-	}
-	if (a == -402 && b == 4096)
-	{
-		_putchar(c);
-	}
-	return (0);
+	return (c);
 }
