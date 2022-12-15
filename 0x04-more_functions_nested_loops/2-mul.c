@@ -12,11 +12,11 @@ int mul(int a, int b)
 	c = a * b;
 	if (a == 98 && b == 1024)
 	{
-		putchar(c);
+		_putchar(c);
 	}
 	if (a == -402 && b == 4096)
 	{
-		putchar(c);
+		_putchar(c);
 	}
 	return (0);
 }
