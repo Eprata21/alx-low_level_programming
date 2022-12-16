@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - of symbol
+ * print_diagonal - draws a diagonal line on the rerminal
+ * @n: the number of line
  * Return: always
  */
 void print_diagonal(int n)
