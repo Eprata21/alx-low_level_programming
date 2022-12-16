@@ -1,7 +1,8 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * print_fuzz_buzz -fuzz buzz test
+ * main - print the fuzz buzz
  * Return: always 0
  */
 int main(void)
@@ -30,6 +31,7 @@ int main(void)
 		{
 			printf("%d", i);
 		}
+		printf(" ");
 	}
 	printf("\n");
 	return (0);
