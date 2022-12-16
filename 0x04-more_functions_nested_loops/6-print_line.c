@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - number of time thatthe character
+ * @n: number of lines
  * Return: the charatter
  */
 void print_line(int n)
