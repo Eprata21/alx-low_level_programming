@@ -4,6 +4,7 @@
 /**
  * print_array - n elements of array
  * @n: the number of element
+ * @a: addres of array
  * Return: the number
  */
 void print_array(int *a, int n)
@@ -14,7 +15,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", *(a + i));
 		if (i != (n - i))
-			printf(" ,");
+			printf(", ");
 	}
 	printf("\n");
 }

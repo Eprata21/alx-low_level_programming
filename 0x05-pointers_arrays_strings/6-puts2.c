@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints the first character
- * *str: input
+ * @str: input
  * Return: the string
  */
 void puts2(char *str)
