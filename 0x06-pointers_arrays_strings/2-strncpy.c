@@ -1,14 +1,26 @@
 #include "main.h"
 
 /**
- * _strcmp - the function compire
- * @s1:string
- * @s2:string
- * Return: the strcmp value
+ * *_strncpy - the function coping string
+ * @dest:string
+ * @src:string
+ * @n:the number of copy
+ * Return: the srcncpy value
  */
-int _strcmp(char *s1, char *s2)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;
 
+	while (dest[i] != '\0')
 
+		i++;
+
+	while (dest[i + j] != '\0')
+		j++;
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
+	for (; i < n; i++)
+		dest[i] = '\0';
+	return (dest);
+}
