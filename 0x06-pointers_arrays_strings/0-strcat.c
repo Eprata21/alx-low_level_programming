@@ -2,9 +2,9 @@
 
 /**
  * *_strcat - concatination of two string
- * @dest:
- * @src:
- * Return: the dest 
+ * @dest: the string that will added
+ * @src: string that will append
+ * Return: the dest
  */
 char *_strcat(char *dest, char *src)
 {
