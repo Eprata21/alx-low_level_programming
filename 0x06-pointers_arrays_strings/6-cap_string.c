@@ -18,7 +18,7 @@ char *cap_string(char *str)
 		{
 			if (str[i] == symbols[j])
 			{
-				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+				if (If(str[i] >= ASCII code for a ; str[i] <= ASCII code for z))
 					str[i + 1] -= 32;
 			}
 		}
