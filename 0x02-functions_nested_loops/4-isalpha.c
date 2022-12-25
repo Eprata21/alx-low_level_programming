@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - function name
+ * _isalpha - check the letters or others
  * @c: parametre
- * Reutrn : 1 t 0 false
+ * Return: 1 if appercase and lowercase
  */
 int _isalpha(int c)
 {
@@ -15,4 +15,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-}	
+}
