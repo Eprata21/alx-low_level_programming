@@ -17,14 +17,16 @@ int main(void)
 	for (n = 3; n <= 50; n++)
 	{
 		if (n == 50)
+		{
 			printf("%lu\n");
+		}
 		else
 		{
 		printf("%lu, ", k);
+		}
 		i = j;
 		j = k;
 		k = i + j;
-		}
 	}
 	return (0);
 }
