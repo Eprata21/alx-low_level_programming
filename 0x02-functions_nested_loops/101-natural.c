@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * adding natural numbers of multiple 3 and 5
+ * main - adding natural numbers of multiple 3 and 5
  *
  * Return: 0 always;
  */
