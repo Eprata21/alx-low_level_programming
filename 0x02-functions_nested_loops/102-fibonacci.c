@@ -20,7 +20,7 @@ int main(void)
 			printf("%lu\n");
 		else
 		{
-		printf("%lu ,", k);
+		printf("%lu, ", k);
 		i = j;
 		j = k;
 		k = i + j;
