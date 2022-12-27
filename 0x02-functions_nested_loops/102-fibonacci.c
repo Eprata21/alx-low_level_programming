@@ -14,11 +14,11 @@ int main(void)
 	j = 1;
 	k = i + j;
 
-	for (n = 3; n <= 50; n++)
+	for (n = 3; n <= 50; ++n)
 	{
 		if (n == 50)
 		{
-			printf("%lu\n");
+			printf("%lu\n", k);
 		}
 		else
 		{
