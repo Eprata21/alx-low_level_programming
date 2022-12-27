@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	int i, j, n, k;
+	int long i, j, k;
+	int n;
 
 	i = 0;
 	j = 1;
@@ -15,10 +16,15 @@ int main(void)
 
 	for (n = 3; n <= 50; n++)
 	{
-		printf("%d ,", k);
+		if (n == 50)
+			printf("%lu\n");
+		else
+		{
+		printf("%lu ,", k);
 		i = j;
 		j = k;
 		k = i + j;
+		}
 	}
 	return (0);
 }
