@@ -14,7 +14,7 @@ int main(void)
 	j = 1;
 	k = i + j;
 
-	for (n = 5; n <= 50; ++n)
+	for (n = 1; n <= 50; ++n)
 	{
 		if (n == 50)
 		{
