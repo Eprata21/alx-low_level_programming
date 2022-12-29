@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	unsigned int long long i, j, k;
+	unsigned int long i, j, k;
 	int n;
 
 	i = 0;
@@ -17,11 +17,11 @@ int main(void)
 	{
 		if (n == 98)
 		{
-			printf("%lld\n", k);
+			printf("%lu\n", k);
 		}
 		else
 		{
-			printf("%lld, ", k);
+			printf("%lu, ", k);
 			i = j;
 			j = k;
 			k = i + j;
