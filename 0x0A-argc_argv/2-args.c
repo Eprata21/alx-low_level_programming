@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - function name 
- * @arg: size of
+ * main - function name
+ * @argc: size of
  * @argv: pointer
  * Return: always 0
  */
