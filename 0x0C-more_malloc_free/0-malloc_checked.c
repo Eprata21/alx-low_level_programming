@@ -1,19 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
 
 /**
- * *malloc_checked - function that alloctes momery
- * @b: pointer
+ * *malloc_checked - function
+ * @b: byte
  * Return: pointer
  */
 void *malloc_checked(unsigned int b)
 {
-	int *a;
+	char *s;
 
-	a = malloc(b);
-	if (a == NULL)
+	s = malloc(b);
+	if (s == NULL)
 		exit(98);
-	return (a);
+	return (s);
 }
