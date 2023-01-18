@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "function_pointers.h"
-
 /**
  * int_index - function that search
  * @array: array
  * @size: number of element in the array
  * @cmp: pointer function
+ * Return: -1
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
