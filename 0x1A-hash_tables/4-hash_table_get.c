@@ -3,7 +3,7 @@
  * *hash_table_get - retrieve the value
  * @ht: is the hash table you want to look into
  * @key: is the key you are looking for
- * Return:
+ * Return: NULL
  */
 
 char *hash_table_get(const hash_table_t *ht, const char *key)
