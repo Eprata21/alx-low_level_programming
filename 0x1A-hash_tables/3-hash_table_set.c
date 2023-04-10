@@ -1,8 +1,7 @@
 #include"hash_tables.h"
 
 /**
- * hash_table_set - function that adds element to hash table
- * @ht:  is the hash table you want to add or update the key/value to
+ * *set_pair - function that adds element to hash table
  * @key: is key that can't be empty value
  * @value: value assiociated with key
  * Return: 1 if succeeded else 0
